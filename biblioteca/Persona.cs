@@ -17,5 +17,6 @@ namespace biblioteca
         }
 
         public override string ToString() => $"{Nombre}, {Edad} años, {Genero}";
+        public void Saludar() => Console.WriteLine($"Hola, mi nombre es {Nombre}, tengo {Edad} años y soy {Genero}.");
     }
 }
